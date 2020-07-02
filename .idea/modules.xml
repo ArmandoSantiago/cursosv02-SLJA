@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cursosv02-SLJA.iml" filepath="$PROJECT_DIR$/cursosv02-SLJA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cursosv02-SLJA-grailsPlugins.iml" filepath="$PROJECT_DIR$/cursosv02-SLJA-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
