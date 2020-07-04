@@ -1,4 +1,4 @@
-let URL = "http://localhost:8080/cursosv02/persona/"
+let URL = "http://localhost:8080/cursosv02-SLJA/persona/"
 
 function listar() {
     fetch(URL + 'listaPersonas')
@@ -49,6 +49,7 @@ function guardar(evento, accion) {
         correo: correo,
         telefono: telefono
     }
+    alert(persona)
 
     if (accion == "registrar") {
         mensaje = "Registro exitoso";
@@ -66,6 +67,7 @@ function guardar(evento, accion) {
             return response.json()
         })
         .then(function (data) {
+            alert(data)
             if (data.respuesta === true) {
                 alert(mensaje);
                 index();

@@ -1,4 +1,4 @@
-let URL = "http://localhost:8080/cursosv02/curso/"
+let URL = "http://localhost:8080/cursosv02-SLJA/curso/"
 
 function listarCursos() {
     fetch(URL + 'listaCursos')
